@@ -21,11 +21,9 @@ package com.robbyp.reactive
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories
-import org.springframework.web.reactive.config.EnableWebFlux
 
 @SpringBootApplication
 @EnableReactiveMongoRepositories
-@EnableWebFlux
 class Application {
 
   companion object {
@@ -34,6 +32,11 @@ class Application {
       SpringApplication.run(Application::class.java, *args)
     }
   }
+
+//  @Bean
+//  fun routes(): RouterFunction<ServerResponse> {
+//    return resources("/**", ClassPathResource("static/"))
+//  }
 
   //  @Bean
 //  fun commandLineRunner(ctx: ApplicationContext): CommandLineRunner {
