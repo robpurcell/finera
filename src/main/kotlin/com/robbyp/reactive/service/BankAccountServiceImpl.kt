@@ -17,8 +17,7 @@ class BankAccountServiceImpl : BankAccountService {
     return bankAccountRepository!!.save(bankAccountDetails).map { (accountId) -> accountId }
   }
 
-  override fun saveBankAccount(
-      bankAccountDetails: BankAccountDetails): Mono<BankAccountDetails> {
+  override fun saveBankAccount(bankAccountDetails: BankAccountDetails): Mono<BankAccountDetails> {
     return bankAccountRepository!!.save(bankAccountDetails)
   }
 
@@ -42,8 +41,7 @@ class BankAccountServiceImpl : BankAccountService {
     return bankAccountRepository!!.findByFixedDepositsTenureLessThan(tenure)
   }
 
-  override fun findByFixedDepositsFdAmountGreaterThan(
-      fdAmount: Int): Flux<BankAccountDetails> {
+  override fun findByFixedDepositsFdAmountGreaterThan(fdAmount: Int): Flux<BankAccountDetails> {
     return bankAccountRepository!!.findByFixedDepositsFdAmountGreaterThan(fdAmount)
   }
 

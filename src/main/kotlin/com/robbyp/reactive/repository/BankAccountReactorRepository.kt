@@ -1,4 +1,4 @@
-// Copyright 2018 Purcell Informatics Limited
+// Copyright 2018 Rob Purcell
 //
 // See the LICENCE file distributed with this work for additional
 // information regarding copyright ownership.

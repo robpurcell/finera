@@ -1,6 +1,4 @@
-package com.robbyp.reactive
-
-// Copyright 2018 Purcell Informatics Limited
+// Copyright 2018 Rob Purcell
 //
 // See the LICENCE file distributed with this work for additional
 // information regarding copyright ownership.
@@ -17,6 +15,7 @@ package com.robbyp.reactive
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+package com.robbyp.reactive
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -32,25 +31,5 @@ class Application {
       SpringApplication.run(Application::class.java, *args)
     }
   }
-
-//  @Bean
-//  fun routes(): RouterFunction<ServerResponse> {
-//    return resources("/**", ClassPathResource("static/"))
-//  }
-
-  //  @Bean
-//  fun commandLineRunner(ctx: ApplicationContext): CommandLineRunner {
-//    return { args ->
-//
-//      println("Let's inspect the beans provided by Spring Boot:")
-//
-//      val beanNames = ctx.beanDefinitionNames
-//      Arrays.sort(beanNames)
-//      for (beanName in beanNames) {
-//        println(beanName)
-//      }
-//
-//    }
-//  }
 
 }
