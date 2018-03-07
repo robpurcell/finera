@@ -1,7 +1,7 @@
 buildscript {
   ext {
     versionKotlin = '1.2.21'
-    versionSpringBoot = '2.0.0.BUILD-SNAPSHOT'
+    versionSpringBoot = '2.0.0.RELEASE'
     versionWro4j = '1.8.0.Beta4'
 
     versionBootstrap = '4.0.0'
