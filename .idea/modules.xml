@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/finera.iml" filepath="$PROJECT_DIR$/.idea/modules/finera.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/finera_main.iml" filepath="$PROJECT_DIR$/.idea/modules/finera_main.iml" group="finera" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/finera_test.iml" filepath="$PROJECT_DIR$/.idea/modules/finera_test.iml" group="finera" />
-      <module fileurl="file://$PROJECT_DIR$/reactive-test.iml" filepath="$PROJECT_DIR$/reactive-test.iml" />
     </modules>
   </component>
 </project>
