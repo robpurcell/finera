@@ -1,12 +1,7 @@
 buildscript {
   ext {
-    versionKotlin = '1.2.21'
-    versionSpringBoot = '2.0.0.RELEASE'
-    versionWro4j = '1.8.0.Beta4'
-
-    versionBootstrap = '4.0.0'
-    versionJQuery = '3.3.1'
-    versionPopper = '1.11.1'
+    versionKotlin = '1.2.51'
+    versionSpringBoot = '2.0.3.RELEASE'
   }
   repositories {
     jcenter()
@@ -49,7 +44,7 @@ repositories {
 
 dependencies {
   compile 'com.fasterxml.jackson.module:jackson-module-kotlin'
-  compile 'org.jetbrains.kotlin:kotlin-stdlib-jre8'
+  compile 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
   compile 'org.jetbrains.kotlin:kotlin-reflect'
   compile 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
   compile 'org.springframework.boot:spring-boot-starter-webflux'
